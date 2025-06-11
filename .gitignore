@@ -1,3 +1,20 @@
 # Diretórios de dependências
 node_modules/
 package-lock.json
+
+# Ignorar pastas temporárias
+__pycache__/
+*.pyc
+*.log
+
+# Ignorar arquivos sensíveis ou de ambiente
+.env
+
+# Ignorar pastas de editor
+.vscode/
+.idea/
+
+# Ignorar zips e pastas com XMLs se não forem para o controle de versão
+*.zip
+XML/
+downloads/
