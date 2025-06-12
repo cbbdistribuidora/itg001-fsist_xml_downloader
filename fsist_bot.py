@@ -100,7 +100,7 @@ class FSistBot:
                 print("Ciência confirmada.")
             except:
                 print("Pop-up de ciência não exibido.")
-            time.sleep(15)
+            time.sleep(30)
             try:
                 botao_xml = self.driver.find_element(By.XPATH, "//span[contains(text(),'Apenas XMLs')]/..")
                 botao_xml.click()
